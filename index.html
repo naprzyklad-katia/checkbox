@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox</title>
+    <link rel="stylesheet" href="styles/base/reset.css">
+    </link>
+    <link rel="stylesheet" href="styles/base/typography.css">
+    </link>
+    <link rel="stylesheet" href="styles/blocks/checkbox/">
+    </link>
+    <link rel="stylesheet" href="styles/footer/footer.css">
+    </link>
+    <link rel="stylesheet" href="styles/main.css">
+    </link>
+    <link rel="stylesheet" href="styles/blocks/container/main-container.css">
+    </link>
+    <link rel="stylesheet" href="styles/blocks/checkbox/checkbox__wrapper.css">
+    </link>
+    <link rel="stylesheet" href="styles/blocks/checkbox/checkbox__leftside.css">
+    </link>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="checkbox">
+            <div class="checkbox__wrapper">
+                <label class="check">
+                    <div class="check__left-side">
+                        <input class="check__input" type="checkbox" name="r" value="test1">
+                        <h3 class="h3 h3__checkbox--offset">Landing Page structure</h3>
+                    </div>
+                    <div class="check__right-side">
+                        <ul class="check__img-list">
+                            <li class="check__list-item">
+                                <img class="check__img check__img--offset"
+                                    src="images/check__avatar--1.jpg"
+                                    alt="avatar1" width="30" height="30">
+                            </li>
+                            <li class="check__list-item">
+                                <img class="check__img"
+                                src="images/ check__avatar--2.jpg"                                    alt="avatar2" width="30" height="30">
+                            </li>
+                            <li class="check__list-item">
+                                <img class="check__img"
+                                src="images/    check__avatar--3.jpg"
+                                alt="avatar3" width="30" height="30">
+                            </li>
+                        </ul>
+                        <div class="counter">
+                            <div class="counter__decoration">
+                                <svg width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="grey" stroke="#e3e3e3">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>comment 1</title>
+                                        <desc>Created with Sketch Beta.</desc>
+                                        <defs> </defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                            sketch:type="MSPage">
+                                            <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                                transform="translate(-102.000000, -257.000000)" fill="#F0F0F0">
+                                                <path
+                                                    d="M118,257 C109.164,257 102,263.269 102,271 C102,275.419 104.345,279.354 108,281.919 L108,289 L115.009,284.747 C115.979,284.907 116.977,285 118,285 C126.836,285 134,278.732 134,271 C134,263.269 126.836,257 118,257"
+                                                    id="comment-1" sketch:type="MSShapeGroup"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="check__counter">3</span>
+                            <script>
+                                const checkbox = document.querySelectorAll('.check__input');
+                                const counter = document.querySelector('.check__counter');
+
+                                // Set initial count
+                                counter.textContent = document.querySelectorAll('.check__input:checked').length;
+
+                                checkboxes.forEach(checkbox => {
+                                    checkbox.addEventListener('change', () => {
+                                        counter.textContent = document.querySelectorAll('.check__input:checked').length;
+                                    });
+                                });
+
+                            </script>
+                            <span class="ellipsis">...</span>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div class="checkbox">
+            <div class="checkbox__wrapper">
+                <label class="check">
+                    <div class="check__left-side">
+                        <input class="check__input" type="checkbox" name="r" value="test1">
+                        <h3 class="h3 h3__checkbox--offset">Landing Page structure</h3>
+                    </div>
+                    <div class="check__right-side">
+                        <ul class="check__img-list">
+                            <li class="check__list-item">
+                                <img class="check__img check__img--offset"
+                                    src="images/check__avatar--1.jpg"
+                                    alt="avatar1" width="30" height="30">
+                            </li>
+                            <li class="check__list-item">
+                                <img class="check__img"
+                                src="images/ check__avatar--2.jpg"                                    alt="avatar2" width="30" height="30">
+                            </li>
+                            <li class="check__list-item">
+                                <img class="check__img"
+                                src="images/    check__avatar--3.jpg"
+                                alt="avatar3" width="30" height="30">
+                            </li>
+                        </ul>
+                        <div class="counter">
+                            <div class="counter__decoration">
+                                <svg width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="grey" stroke="#e3e3e3">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>comment 1</title>
+                                        <desc>Created with Sketch Beta.</desc>
+                                        <defs> </defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                            sketch:type="MSPage">
+                                            <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                                transform="translate(-102.000000, -257.000000)" fill="#F0F0F0">
+                                                <path
+                                                    d="M118,257 C109.164,257 102,263.269 102,271 C102,275.419 104.345,279.354 108,281.919 L108,289 L115.009,284.747 C115.979,284.907 116.977,285 118,285 C126.836,285 134,278.732 134,271 C134,263.269 126.836,257 118,257"
+                                                    id="comment-1" sketch:type="MSShapeGroup"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="check__counter">3</span>
+                            <script>
+                                const checkboxes = document.querySelectorAll('.check__input');
+                                const counter = document.querySelector('.check__counter');
+
+                                // Set initial count
+                                counter.textContent = document.querySelectorAll('.check__input:checked').length;
+
+                                checkboxes.forEach(checkbox => {
+                                    checkbox.addEventListener('change', () => {
+                                        counter.textContent = document.querySelectorAll('.check__input:checked').length;
+                                    });
+                                });
+
+                            </script>
+                            <span class="ellipsis">...</span>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div class="checkbox">
+            <div class="checkbox__wrapper">
+                <label class="check">
+                    <div class="check__left-side">
+                        <input class="check__input" type="checkbox" name="r" value="test1">
+                        <h3 class="h3 h3__checkbox--offset">Landing Page structure</h3>
+                    </div>
+                    <div class="check__right-side">
+                        <ul class="check__img-list">
+                            <li class="check__list-item">
+                                <img class="check__img check__img--offset"
+                                    src="images/check__avatar--1.jpg"
+                                    alt="avatar1" width="30" height="30">
+                            </li>
+                            <li class="check__list-item">
+                                <img class="check__img"
+                                src="images/ check__avatar--2.jpg"                                    alt="avatar2" width="30" height="30">
+                            </li>
+                            <li class="check__list-item">
+                                <img class="check__img"
+                                src="images/    check__avatar--3.jpg"
+                                alt="avatar3" width="30" height="30">
+                            </li>
+                        </ul>
+                        <div class="counter">
+                            <div class="counter__decoration">
+                                <svg width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="grey" stroke="#e3e3e3">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>comment 1</title>
+                                        <desc>Created with Sketch Beta.</desc>
+                                        <defs> </defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                            sketch:type="MSPage">
+                                            <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                                transform="translate(-102.000000, -257.000000)" fill="#F0F0F0">
+                                                <path
+                                                    d="M118,257 C109.164,257 102,263.269 102,271 C102,275.419 104.345,279.354 108,281.919 L108,289 L115.009,284.747 C115.979,284.907 116.977,285 118,285 C126.836,285 134,278.732 134,271 C134,263.269 126.836,257 118,257"
+                                                    id="comment-1" sketch:type="MSShapeGroup"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="check__counter">3</span>
+                            <script>
+                                const checkboxes = document.querySelectorAll('.check__input');
+                                const counter = document.querySelector('.check__counter');
+
+                                // Set initial count
+                                counter.textContent = document.querySelectorAll('.check__input:checked').length;
+
+                                checkboxes.forEach(checkbox => {
+                                    checkbox.addEventListener('change', () => {
+                                        counter.textContent = document.querySelectorAll('.check__input:checked').length;
+                                    });
+                                });
+
+                            </script>
+                            <span class="ellipsis">...</span>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+        <div class="checkbox">
+            <div class="checkbox__wrapper">
+                <label class="check">
+                    <div class="check__left-side">
+                        <input class="check__input" type="checkbox" name="r" value="test1">
+                        <h3 class="h3 h3__checkbox--offset">Landing Page structure</h3>
+                    </div>
+                    <div class="check__right-side">
+                        <ul class="check__img-list">
+                            <li class="check__list-item">
+                                <img class="check__img check__img--offset"
+                                    src="images/check__avatar--1.jpg"
+                                    alt="avatar1" width="30" height="30">
+                            </li>
+                            <li class="check__list-item">
+                                <img class="check__img"
+                                src="images/ check__avatar--2.jpg"                                    alt="avatar2" width="30" height="30">
+                            </li>
+                            <li class="check__list-item">
+                                <img class="check__img"
+                                src="images/    check__avatar--3.jpg"
+                                alt="avatar3" width="30" height="30">
+                            </li>
+                        </ul>
+                        <div class="counter">
+                            <div class="counter__decoration">
+                                <svg width="30px" height="30px" viewBox="0 0 32 32" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" fill="grey" stroke="#e3e3e3">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                        <title>comment 1</title>
+                                        <desc>Created with Sketch Beta.</desc>
+                                        <defs> </defs>
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                            sketch:type="MSPage">
+                                            <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                                transform="translate(-102.000000, -257.000000)" fill="#F0F0F0">
+                                                <path
+                                                    d="M118,257 C109.164,257 102,263.269 102,271 C102,275.419 104.345,279.354 108,281.919 L108,289 L115.009,284.747 C115.979,284.907 116.977,285 118,285 C126.836,285 134,278.732 134,271 C134,263.269 126.836,257 118,257"
+                                                    id="comment-1" sketch:type="MSShapeGroup"> </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <span class="check__counter">3</span>
+                            <script>
+                                const checkboxes = document.querySelectorAll('.check__input');
+                                const counter = document.querySelector('.check__counter');
+
+                                // Set initial count
+                                counter.textContent = document.querySelectorAll('.check__input:checked').length;
+
+                                checkboxes.forEach(checkbox => {
+                                    checkbox.addEventListener('change', () => {
+                                        counter.textContent = document.querySelectorAll('.check__input:checked').length;
+                                    });
+                                });
+
+                            </script>
+                            <span class="ellipsis">...</span>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+
+        </div>
+    </footer>
+    </div>
+</body>
+</html>

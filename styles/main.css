@@ -1,0 +1,9 @@
+@import "base/reset.css";
+@import "base/typography.css";
+@import "blocks/container/main-container.css";
+@import "blocks/checkbox/checkbox.css";
+@import "blocks/checkbox/checkbox__wrapper.css";
+@import "blocks/checkbox/checkbox__rightside.css";
+@import "blocks/checkbox/checkbox__leftside.css";
+@import "footer/footer.css";
+

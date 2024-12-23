@@ -1,0 +1,45 @@
+.check__right-side {
+    display: flex;
+    margin-left: 270px;
+    align-items: baseline;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 270px;
+}
+
+.check__list-item {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid white;
+    overflow: hidden;
+    position: relative;
+    margin-left: -10px;
+}
+
+.check__img-list {
+    display: flex;
+    width: 120px;
+    margin-right: 30px;
+}
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check__counter {
+    font-family: 'Inter', sans-serif;
+    color: #667085;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.counter__decoration{
+    margin-right: 12px;
+}
+
+.ellipsis {
+    margin-left: 29px 0;
+}
